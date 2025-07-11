@@ -127,3 +127,27 @@ nav ul li {
     color: rgba(0, 0, 0, 0.5);
     
 }
+
+/* touch styles */
+
+.touch{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.touch-column{
+    width: 50%;
+}
+
+section input[type="email"] section input[type="text"], section textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+
+}
