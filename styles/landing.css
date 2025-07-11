@@ -86,8 +86,44 @@ nav ul li {
 }
 
 .action-description{
-    color: #252432;
+    color: rgba(37, 36, 50, 0.5);
     font-size: 24px;
     margin-bottom: 30px;
 }
 
+/* productive styles */
+
+.productive-title{
+    font-size: 38px;
+    font-weight: bold;
+   
+}
+
+.productive{
+     color: #252432;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 50px 140px;
+    text-align: center;
+    margin-top: 166px;
+
+}
+
+.productive-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-title{
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+    margin-bottom: 10px;
+}
+
+.item-description{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    
+}
